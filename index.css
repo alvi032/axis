@@ -1,0 +1,88 @@
+body, html{
+    font-family: 'gotham-light';
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header{
+    background: linear-gradient( to top, rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url("images/slider-bg.jpeg") center no-repeat;
+    background-size: cover;
+    height: 20vw;
+    display: grid;
+}
+#navbar{
+    height: fit-content;
+    align-self: end;
+}
+#laptop{
+    text-align: center;
+}
+#laptop img{
+    position: relative;
+    height: 250px;
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    height: fit-content;
+    padding: 0;
+}
+#menu li{
+    list-style: none;
+    text-decoration: none;
+}
+#menu li:nth-child(3){
+    grid-column: 4/5;
+}
+#menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+#text-1, #text-2{
+    text-align: center;
+    padding: 2em 2em;
+}
+#learning{
+    text-align: center;
+    margin: 2em 0;
+}
+#learning-grid ul{
+    display: grid ;
+    grid-template-columns: repeat(5, 1fr);
+    list-style: none;
+    padding: 0;
+}
+#learning-grid ul li:nth-child(1){
+    grid-column: 2/3;
+}
+#learning-grid img{
+    height: 200px;
+    width: auto;
+}
+#courses{
+    text-align: center;
+    margin: 2em 0;
+}
+#course-view ul{
+    display: grid ;
+    grid-template-columns: repeat(5, 1fr);
+    list-style: none;
+    padding: 0;
+}
+#course-view ul li:nth-child(1){
+    grid-column: 2/3;
+}
+#course-view img{
+    height: 200px;
+    width: auto;
+}
+footer{
+    background-color: black;
+    padding: 0.5em 0;
+    text-align: center;
+}
+footer p{
+    color: white;
+}
