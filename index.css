@@ -4,8 +4,13 @@ body, html{
     padding: 0;
     overflow-x: hidden;
 }
+body{
+    background-color: #f3f3f3;
+}
 header{
     background: linear-gradient( to top, rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url("images/slider-bg.jpeg") center no-repeat;
+    /*background: linear-gradient( to top, rgba(0,0,0,0.8), rgba(0,0,0,1)), white center no-repeat;*/
+    /*background-color: #4c4c4c;*/
     background-size: cover;
     height: 20vw;
     display: grid;
@@ -13,13 +18,29 @@ header{
 #navbar{
     height: fit-content;
     align-self: end;
+    background-color: #292929;
+    /*background: linear-gradient(to bottom, rgba(226, 109, 0, 1), rgba(226, 165, 20, 0.9)), black;*/
 }
-#laptop{
-    text-align: center;
+#menu #laptop-img{
+    height: 300px;
+    position: absolute;
+    bottom: -50px;
+    left:50%;
+    transform: translateX(-50%);
 }
-#laptop img{
-    position: relative;
-    height: 250px;
+#screen-shade{
+    height: 300px;
+    position: absolute;
+    bottom: -50px;
+    left:50%;
+    transform: translateX(-50%);
+}
+#temp1{
+    width: 270px;
+    position: absolute;
+    bottom: 70px;
+    left:50%;
+    transform: translateX(-50%);
 }
 #menu{
     display: grid;
@@ -30,36 +51,79 @@ header{
 }
 #menu li{
     list-style: none;
-    text-decoration: none;
-}
-#menu li:nth-child(3){
-    grid-column: 4/5;
+    text-align: center;
+    position:relative;
 }
 #menu li a{
     text-decoration: none;
     color: white;
     font-size: 24px;
 }
-#text-1, #text-2{
+#slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    /*background: linear-gradient(to bottom, #e2aa00, #e26d05);*/
+    background: linear-gradient(to bottom, rgba(255,127,0,0.5), rgba(0,0,0,0)), url("images/doodle-stock.jpeg"), center no-repeat;
+    background-size: cover;
+}
+#text-1{
+    font-family: gotham-medium;
     text-align: center;
-    padding: 2em 2em;
+    padding: 1em 5em;
+    font-size: 25px;
+    color: white;
+    background: rgba(0,0,0,0.3);
 }
 #learning{
     text-align: center;
+    margin: 3em 0;
+}
+#learning h1{
+    font-size: 30px;
     margin: 2em 0;
 }
 #learning-grid ul{
     display: grid ;
-    grid-template-columns: repeat(5, 1fr);
+    width: fit-content;
+    grid-template-columns: repeat(3, 1fr);
     list-style: none;
+    margin: 2em auto;
     padding: 0;
+    place-self: center;
 }
-#learning-grid ul li:nth-child(1){
+/*#learning-grid ul li:nth-child(1){
     grid-column: 2/3;
+}*/
+#learning-grid li{
+    width: fit-content;
+    place-self: center;
+    margin: 0 3em;
 }
 #learning-grid img{
-    height: 200px;
+    height: 300px;
     width: auto;
+    border-radius: 20px;
+    -webkit-box-shadow: 6px 6px 29px -13px rgba(0,0,0,0.45);
+    -moz-box-shadow: 6px 6px 29px -13px rgba(0,0,0,0.45);
+    box-shadow: 6px 6px 29px -13px rgba(0,0,0,0.2);
+
+}
+#picture-text{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    /*place-items: center left;*/
+}
+#picture-text img{
+    place-self: center right;
+    height: 500px;
+}
+#text-2{
+    width: 30vw;
+    font-size: 20px;
+    place-self: center left;
 }
 #courses{
     text-align: center;
@@ -77,6 +141,16 @@ header{
 #course-view img{
     height: 200px;
     width: auto;
+}
+#get-started, #see-more{
+    background: linear-gradient( to bottom, #e2bb39, #e29430);
+    border: 0 solid transparent;
+    border-radius: 20px;
+    padding: 1em 3em;
+    /*margin: 2em;*/
+    font-size: 16px;
+    color: white;
+
 }
 footer{
     background-color: black;
