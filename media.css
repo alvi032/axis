@@ -7,8 +7,8 @@
     }
     #get-started, #see-more{
         width: 100vw;
-        height: 60px;
-        font-size: 1.5em;
+        height: 80px;
+        font-size: 2em;
         border-radius: unset;
         padding: unset;
     }
