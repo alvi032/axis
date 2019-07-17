@@ -86,6 +86,7 @@ header{
 }
 #learning-grid ul{
     display: grid ;
+    grid-gap: 2em;
     width: fit-content;
     grid-template-columns: repeat(3, 1fr);
     list-style: none;
@@ -99,16 +100,16 @@ header{
 #learning-grid li{
     width: fit-content;
     place-self: center;
-    margin: 0 3em;
+    /*margin: 0 3em;*/
 }
 #learning-grid img{
-    height: 300px;
+    max-height: 300px;
+    height: 25vw;
     width: auto;
     border-radius: 20px;
     -webkit-box-shadow: 6px 6px 29px -13px rgba(0,0,0,0.45);
     -moz-box-shadow: 6px 6px 29px -13px rgba(0,0,0,0.45);
     box-shadow: 6px 6px 29px -13px rgba(0,0,0,0.2);
-
 }
 #picture-text{
     display: grid;
