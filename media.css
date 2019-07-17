@@ -3,7 +3,7 @@
         margin: 2em 0;
     }
 }
-@media (min-width: 500px){
+@media (max-width: 500px){
     #slider{
         height: 50vw;
     }
