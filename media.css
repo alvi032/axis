@@ -1,0 +1,5 @@
+@media (min-width: 1000px){
+    #learning h1, #courses h1{
+        margin: 2em 0;
+    }
+}
