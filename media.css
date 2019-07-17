@@ -7,6 +7,16 @@
     #slider{
         height: 50vw;
     }
+    #learning, #courses{
+        margin: 2em 0 0 0;
+    }
+    #get-started, #see-more{
+        width: 100vw;
+        height: 60px;
+        font-size: 1.5em;
+        border-radius: unset;
+        padding: unset;
+    }
     #picture-text {
         grid-template-columns: auto;
         grid-template-rows: repeat(2, auto);
