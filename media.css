@@ -1,9 +1,4 @@
-@media (min-width: 1000px){
-    #learning h1, #courses h1{
-        margin: 2em 0;
-    }
-}
-@media (max-width: 500px){
+@media (max-device-width: 500px){
     #slider{
         height: 50vw;
     }
@@ -28,5 +23,10 @@
         width: 80vw;
         place-self: center center;
         text-align: justify;
+    }
+}
+@media (min-width: 1000px){
+    #learning h1, #courses h1{
+        margin: 2em 0;
     }
 }
