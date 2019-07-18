@@ -1,6 +1,7 @@
 @media (max-device-width: 500px){
     #slider{
         height: 70vw;
+        padding-top: 8vh;
     }
     #slider h2{
         font-size: 3rem;
