@@ -87,7 +87,6 @@ html, body{
 #menu-options li:hover a{
     color: white;
 }
-
 #menu-options a{
     display: flex;
     align-items: center;

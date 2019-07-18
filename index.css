@@ -169,10 +169,30 @@ header{
 
 }
 footer{
-    background-color: black;
+    background-color: #1a1a1a;
     padding: 0.5em 0;
     text-align: center;
 }
 footer p{
     color: white;
+}
+#parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2em;
+}
+#footer-logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#footer-logo img{
+    height: 150px;
+}
+#footer-content p{
+    text-align: right;
+}
+.boldit{
+    font-family: gotham-medium;
+    white-space: nowrap;
 }

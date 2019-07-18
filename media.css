@@ -47,4 +47,25 @@
         place-self: center center;
         text-align: justify;
     }
+    #parent{
+        display: grid;
+        grid-template-columns: unset;
+        grid-template-rows: repeat(2, auto);
+        padding: 0 2em;
+    }
+    #footer-logo{
+        display: block;
+        justify-content: left;
+        align-items: center;
+    }
+    #footer-logo img{
+        margin: 1em 0;
+    }
+    #footer-content{
+        padding: 1em 0;
+    }
+    #footer-content p{
+        text-align: center;
+        font-size: 14px;
+    }
 }
