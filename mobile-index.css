@@ -81,7 +81,19 @@ html, body{
     align-items: center;
     background: linear-gradient(to bottom, #f3f3f3, #eeeeee);
 }
+#menu-options li:hover {
+    background: linear-gradient(to bottom, #ff9413, #dd7713);
+}
+#menu-options li:hover a{
+    color: white;
+}
+
 #menu-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
     text-decoration: none;
     color: #222222;
     font-size: 50px;
