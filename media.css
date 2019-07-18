@@ -1,6 +1,9 @@
 @media (max-device-width: 500px){
     #slider{
-        height: 50vw;
+        height: 70vw;
+    }
+    #slider h2{
+        font-size: 3rem;
     }
     #learning, #courses{
         margin: 2em 0 0 0;
