@@ -67,4 +67,7 @@
         border-radius: unset;
         padding: unset;
     }
+    #learning, #courses{
+        margin-bottom: 0;
+    }
 }
