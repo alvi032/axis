@@ -40,9 +40,11 @@
 }
 
 #about-content p {
-    font-size: large;
+    font-size: larger;
+    line-height: 150%;
     width: 80%;
     margin: 1em auto;
+    ;
 }
 #statements{
     margin-top: 80px;
