@@ -52,6 +52,12 @@
     #course-list{
         grid-template-columns: repeat(1, auto);
     }
+    #para{
+        width: 95%;
+    }
+    #para p{
+        box-shadow: none;
+    }
     #footer-logo{
         display: block;
         justify-content: left;
