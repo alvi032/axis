@@ -1,3 +1,6 @@
+#main-courses{
+    padding-top: 70px;
+}
 #course-list{
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -10,7 +13,7 @@
 #course-heading{
     text-align: center;
     width: max-content;
-    margin: 2em auto;
+    margin: 1em auto 2em auto;
     padding-bottom: 25px;
     font-family: gotham-medium;
     font-size: 40px;
