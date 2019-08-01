@@ -97,4 +97,5 @@ html, body{
     color: #222222;
     font-size: 30px;
     font-family: gotham-medium;
+    -webkit-tap-highlight-color: transparent;
 }
